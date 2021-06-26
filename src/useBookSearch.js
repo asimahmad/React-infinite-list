@@ -33,5 +33,5 @@ export function useBookSearch(query, pageNumber) {
         })
         return () => cancel()
     }, [query, pageNumber])
-    return { loading, error, books, hasMore }
+    return {loading, error, books, hasMore}
 }
